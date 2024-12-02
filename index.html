@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="weatherCard">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name"
+            spellcheck="false">
+            <button type="submit"> Get Weather</button>
+        </div>
+        <div class="error">Invalid City Name</div>
+
+        <div class="weather">
+            <img src="images/clear.png" class="weatherIcon">
+            <h1 class="temp">22°F</h1>
+            <h2 class="city">Naples</h2>
+            <div class="details">
+                <p class="feelsLike">Feels Like: <span> 57°</span></p>
+                <p class="highLow">H: <span>74°</span> L: <span>58°</span></p>
+                <p class="weatherDes">Sunny</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="weatherElements">
+        <div class="elements">
+            <h1 class="wind">Wind Speed: <span class= "windSpeed">--</span> mph</h1>
+            <h2 class="direction">Direction: <span class="windDirection">--</span></h2>
+        </div>    
+        <div class="elements">
+            <h1 class="pressure">Pressure: <span class="pressureValue">--</span> Hg</h1>
+        </div>
+        <div class="elements">
+            <h1 class="humidity">Humidity: <span class="humidityValue">--</span></h1>
+        </div>
+        <div class="elements">
+            <h1 class="visability">Visibility: <span class="visibilityValue">--</span></h1>
+        </div>
+    </div>
+        
+
+    <script src="index.js"></script>
+
+    
+    
+</body>
+</html>

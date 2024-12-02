@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222;
+}
+
+.weatherCard{
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(135deg, #5f7ec1, #3a28a9);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    padding: 10px 5px;
+    font-size: 1.5rem;
+    border: 0;
+    outline: 0;
+    background: hsl(122, 39%, 50%);
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: hsl(122, 39%, 30%);
+}
+
+.weather img.weatherIcon{
+   width: 170px;
+   margin-top: 30px;
+
+}
+
+.weather h1{
+    font-size: 45px;
+    font-weight: 300;
+
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: -10px;
+    
+}
+
+.details{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.details p{
+    margin: 3px 0;
+    line-height: 1.4;
+}
+
+.details span{
+    font-weight: 400;
+    color: #ebfffc;
+}
+
+.details .weatherDes{
+    margin-top: 2px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize; 
+}
+
+.weatherElements {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.elements {
+    background: linear-gradient(135deg, #5f7ec1, #3a28a9);
+    color: #fff;
+    border-radius: 10px;
+    width: calc(50% - 10px); 
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.wind, .direction {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.windSpeed, .windDirection{
+    color: #ebfffc;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.elements h1 {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.elements span{
+    color: #ebfffc;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.weather{
+    display: none;
+}
+
+.weatherElements{
+    display: none;
+}
+.error{
+    display: none;
+}
