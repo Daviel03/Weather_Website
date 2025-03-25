@@ -1,5 +1,4 @@
 # Weather Website
-file:
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/10291/badge)](https://www.bestpractices.dev/projects/10291)
 
 ![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Daviel03/Weather_Website/badge)
