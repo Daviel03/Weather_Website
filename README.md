@@ -4,5 +4,5 @@
 
 ![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Daviel03/Weather_Website/badge)
 
-A simple weather website that shows real-time weather data using OpenWeatherMap API
+A simple weather website that shows real-time weather data using OpenWeatherMap API.
 
